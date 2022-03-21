@@ -1,9 +1,9 @@
 ﻿[
   {
-    "Author": "Ottermandias",
+    "Author": "Ottermandias/parkerjj",
     "Name": "GatherBuddy [T]",
     "Punchline": "Simplify Gathering and Fishing.",
-    "Description": "Adds commands to simplify gathering by finding nodes and fish and their locations via item name and a UI to keep track of special uptime and weather conditions.",
+    "Description": "适配国服狒狒6.0，Adds commands to simplify gathering by finding nodes and fish and their locations via item name and a UI to keep track of special uptime and weather conditions.",
     "Tags": [ "Gathering", "Fishing", "Miner", "Botanist", "Weather", "Alarms", "Timer" ],
     "InternalName": "GatherBuddy",
     "AssemblyVersion": "3.0.3.1",
@@ -15,8 +15,8 @@
     "IsTestingExclusive": "True",
     "DownloadCount": 1,
     "LastUpdate": 1618608322,
-    "DownloadLinkTesting": "https://github.com/Ottermandias/GatherBuddy/raw/main/GatherBuddy.zip",
-    "DownloadLinkUpdate": "https://github.com/Ottermandias/GatherBuddy/raw/main/GatherBuddy.zip",
+    "DownloadLinkTesting": "https://github.com/parkerjj/GatherBuddy/raw/main/GatherBuddy.zip",
+    "DownloadLinkUpdate": "https://github.com/parkerjj/GatherBuddy/raw/main/GatherBuddy.zip",
     "IconUrl": "https://raw.githubusercontent.com/Ottermandias/GatherBuddy/main/images/icon.png"
   }
 ]

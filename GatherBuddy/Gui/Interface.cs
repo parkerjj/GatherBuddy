@@ -19,15 +19,18 @@ public partial class Interface : Window, IDisposable
     private static GatherBuddy _plugin                 = null!;
     private        TimeStamp   _earliestKeyboardToggle = TimeStamp.Epoch;
 
+    
     private static List<ExtendedFish>? _extendedFishList;
+
 
     public static IReadOnlyList<ExtendedFish> ExtendedFishList
         => _extendedFishList ??= GatherBuddy.GameData.Fishes.Values
             .Where(f => f.FishingSpots.Count > 0 && f.InLog)
             .Select(f => new ExtendedFish(f)).ToList();
 
+
     public Interface(GatherBuddy plugin)
-        : base(GatherBuddy.Version.Length > 0 ? $"{PluginName} v{GatherBuddy.Version}###GatherBuddyMain" : PluginName)
+        : base("GatherBuddy_CN")
     {
         _plugin            = plugin;
         _gatherGroupCache  = new GatherGroupCache(_plugin.GatherGroupManager);

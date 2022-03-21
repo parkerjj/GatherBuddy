@@ -38,40 +38,40 @@
 	
 	<ItemGroup>
 		<Reference Include="Dalamud">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Dalamud.dll</HintPath>
+			<HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\Dalamud.dll</HintPath>
       <Private>False</Private>
 		</Reference>
 		<Reference Include="ImGui.NET">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGui.NET.dll</HintPath>
+			<HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\ImGui.NET.dll</HintPath>
       <Private>False</Private>
 		</Reference>
 		<Reference Include="ImGuiScene">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\ImGuiScene.dll</HintPath>
+			<HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\ImGuiScene.dll</HintPath>
       <Private>False</Private>
 		</Reference>
 		<Reference Include="SDL2-CS">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\SDL2-CS.dll</HintPath>
+			<HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\SDL2-CS.dll</HintPath>
       <Private>False</Private>
 		</Reference>
     <Reference Include="Lumina">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.dll</HintPath>
+			<HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\Lumina.dll</HintPath>
       <Private>False</Private>
 		</Reference>
     <Reference Include="Lumina.Excel">
-			<HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\Lumina.Excel.dll</HintPath>
+			<HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\Lumina.Excel.dll</HintPath>
       <Private>False</Private>
 		</Reference>
     <Reference Include="FFXIVClientStructs">
-      <HintPath>$(AppData)\XIVLauncher\addon\Hooks\dev\FFXIVClientStructs.dll</HintPath>
+      <HintPath>D:\Game\FFXIV\dalamu\6.3.0.8\FFXIVClientStructs.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="12.0.3">
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1">
       <Private>False</Private>
     </PackageReference>
-    <PackageReference Include="System.Memory" Version="4.5.3">
+    <PackageReference Include="System.Memory" Version="4.5.4">
       <Private>False</Private>
     </PackageReference>
 	</ItemGroup>

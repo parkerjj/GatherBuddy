@@ -22,6 +22,7 @@ public class Identificator
             (ClientLanguage)(((int)GatherBuddy.Language + 1) % 4),
             (ClientLanguage)(((int)GatherBuddy.Language + 2) % 4),
             (ClientLanguage)(((int)GatherBuddy.Language + 3) % 4),
+            (ClientLanguage)(((int)GatherBuddy.Language + 4) % 4),
         };
 
         _gatherableFromLanguage = languages.Select(l => _data.Gatherables.Values.ToDictionary(g => g.Name[l].ToLowerInvariant(), g => g))
